@@ -1,0 +1,31 @@
+.root{
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    position: relative;
+    border: 3px solid #3e4141;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    padding: 20px;
+
+
+    background-size:contain;
+    margin: 10px;
+}
+
+.mole{
+    width: 80%;
+    height: 70%;
+    transition: all 0.4s;
+
+    bottom: 55px;
+    position: absolute;
+}
+
+.hole{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
